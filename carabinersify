@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# echo "Downloading template"
+
+echo "Installing required tools"
+npm install\
+  gulp\
+  require-dir\
+  gulp-gh-pages\
+  gulp-ruby-sass\
+  gulp-autoprefixer\
+  gulp-minify-css\
+  gulp-jshint\
+  gulp-concat\
+  gulp-uglify\
+  gulp-imagemin\
+  gulp-babel\
+  gulp-sourcemaps\
+  gulp-notify\
+  gulp-rename\
+  gulp-livereload\
+  gulp-cache\
+  del\
+  \
+  --save-dev -qq
